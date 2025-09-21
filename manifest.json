@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Logo Scroll To Top",
+    "version": "1.0",
+    "description": "Mengembalikan fungsi scroll ke atas saat logo YouTube di klik pada halaman utama.",
+    "icons": {
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/*"
+            ],
+            "js": [
+                "jquery.min.js",
+                "content.js"
+            ]
+        }
+    ]
+}
