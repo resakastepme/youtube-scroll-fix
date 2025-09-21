@@ -1,0 +1,14 @@
+{
+    "extName": {
+        "message": "YouTube Logo Scroll To Top"
+    },
+    "popupTitle": {
+        "message": "Settings"
+    },
+    "enableFeature": {
+        "message": "Enable Scroll Feature"
+    },
+    "selectLanguage": {
+        "message": "Language"
+    }
+}
